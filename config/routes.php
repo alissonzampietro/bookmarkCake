@@ -11,7 +11,7 @@ Router::scope(
     '/bookmarks',
     ['controller' => 'Bookmarks'],
     function ($routes) {
-        //$routes->connect('/rola/*', ['action' => 'tags']);
+        $routes->connect('/rola/*', ['action' => 'tags']);
     }
 );
 
